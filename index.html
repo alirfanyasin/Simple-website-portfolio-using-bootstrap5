@@ -5,123 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
   <body>
     
-    <!-- Nabar start -->
+    <!-- Navbar start -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="assets/img/Logo.png" alt="Logo" width="150px">
+          <img src="assets/img/Logo.png" alt="Logo" width="120px">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav mx-auto">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">About me</a>
             <a class="nav-link" href="#">Testimonials</a>
           </div>
-          <a class="btn btn-outline-primary py-2 px-3 me-0" href="#">Contact Me</a>
+          <div class="nav-link">
+            <a class="btn btn-outline-primary">Contact Me</a>
+          </div>
         </div>
       </div>
     </nav>
-    <!-- Nabar end -->
+    <!-- Navbar End -->
+
 
     <main>
       <!-- Hero section start -->
       <section id="hero-section" class="vh-100 d-flex align-items-center">
         <div class="container">
           <div class="row d-flex align-items-center">
-            <div class="col-md-6">
-              <h5>Hi, I am Jhon</h5>
+            <div class="col-lg-6 col-12">
+              <h5>Hey, I am John</h5>
               <h1 class="fw-bold">I create <span>product design</span> and brand experience</h1>
-              <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-              <a href="#" class="btn btn-primary px-4 py-2">Get In Touch</a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              <a href="" class="btn btn-primary">Get In Touch</a>
             </div>
-            <div class="col-md-6">
-              <img src="assets/img/img-1.png" alt="Profile Image" width="100%">
+            <div class="col-lg-6 col-12">
+              <img src="assets/img/img-1.png" alt="Hero Image" width="100%">
             </div>
           </div>
         </div>
       </section>
       <!-- Hero section end -->
 
+
       <!-- Skill section start -->
-      <section id="skill-section" class="my-5">
+      <section id="skill-section" class="my-5 py-5">
         <div class="container">
           <header class="mb-5">
             <h5>My Skills</h5>
             <h1 class="fw-bold">My Expertise</h1>
           </header>
           <div class="row">
-            <div class="col-lg-3 col-md-6 col-12 mb-3">
-              <div class="card border-0 p-2 rounded-3">
+            <div class="col-lg-3 col-md-6 mb-3 col-12">
+              <div class="card border-0 rounded-3 p-3">
                 <div class="card-body">
-                  <div class="card-icon d-inline-block p-2 rounded-3 shadow mb-4">
-                    <img src="assets/img/icon-1.png" alt="Icon 1">
+                  <div class="card-icon shadow d-inline-block p-2 rounded-3 mb-4">
+                    <img src="assets/img/icon-1.png" alt="Icon 1" width="40px">
                   </div>
-                  <h5 class="card-title fw-semibold">Strategy & Direction</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique..</p>
+                  <h5 class="card-title fw-bold">Strategy & Direction</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-12 mb-3">
-              <div class="card border-0 p-2 rounded-3">
+            <div class="col-lg-3 col-md-6 mb-3 col-12">
+              <div class="card border-0 rounded-3 p-3">
                 <div class="card-body">
-                  <div class="card-icon d-inline-block p-2 rounded-3 shadow mb-4">
-                    <img src="assets/img/icon-2.png" alt="Icon 1">
+                  <div class="card-icon shadow d-inline-block p-2 rounded-3 mb-4">
+                    <img src="assets/img/icon-2.png" alt="Icon 1" width="40px">
                   </div>
-                  <h5 class="card-title fw-semibold">Branding & Logo</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique..</p>
+                  <h5 class="card-title fw-bold">Branding & Logo</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-12 mb-3">
-              <div class="card border-0 p-2 rounded-3">
+            <div class="col-lg-3 col-md-6 mb-3 col-12">
+              <div class="card border-0 rounded-3 p-3">
                 <div class="card-body">
-                  <div class="card-icon d-inline-block p-2 rounded-3 shadow mb-4">
-                    <img src="assets/img/icon-3.png" alt="Icon 1">
+                  <div class="card-icon shadow d-inline-block p-2 rounded-3 mb-4">
+                    <img src="assets/img/icon-3.png" alt="Icon 1" width="40px">
                   </div>
-                  <h5 class="card-title fw-semibold">UI / UX Design</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique..</p>
+                  <h5 class="card-title fw-bold">UI / UX Design</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-12 mb-3">
-              <div class="card border-0 p-2 rounded-3">
+            <div class="col-lg-3 col-md-6 mb-3 col-12">
+              <div class="card border-0 rounded-3 p-3">
                 <div class="card-body">
-                  <div class="card-icon d-inline-block p-2 rounded-3 shadow mb-4">
-                    <img src="assets/img/icon-4.png" alt="Icon 1">
+                  <div class="card-icon shadow d-inline-block p-2 rounded-3 mb-4">
+                    <img src="assets/img/icon-4.png" alt="Icon 1" width="40px">
                   </div>
-                  <h5 class="card-title fw-semibold">Webflow Development</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique..</p>
+                  <h5 class="card-title fw-bold">Webflow Development</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                 </div>
               </div>
             </div>
+           
           </div>
         </div>
       </section>
       <!-- Skill section end -->
 
+
       <!-- About section start -->
       <section id="about-section">
         <div class="container">
           <div class="row d-flex align-items-center">
-            <div class="col-md-6 mb-3">
+            <div class="col-md-6 col-12">
               <img src="assets/img/img-2.png" alt="About Image" width="100%">
             </div>
-            <div class="col-md-6 mb-3">
-              <header>
+            <div class="col-md-6 col-12">
+              <header class="mb-5">
                 <h5>About</h5>
                 <h1 class="fw-bold">About Me</h1>
               </header>
-              <div class="my-description">
+              <div class="about-description">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
                 <p>Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
               </div>
@@ -132,8 +137,8 @@
       <!-- About section end -->
 
 
-      <!-- Portfolio section star -->
-      <section id="portfolio-section" class="mb-5">
+      <!-- Portfolio section start -->
+      <section id="portfolio-section">
         <div class="container">
           <header class="mb-5">
             <h5>Recent Projects</h5>
@@ -142,39 +147,39 @@
           <div class="row">
             <div class="col-lg-4 col-md-6 col-12 mb-3">
               <div class="card border-0 shadow">
-                <img src="assets/img/img-portfolio-1.png" class="card-img-top" alt="Ahuse image">
+                <img src="assets/img/img-portfolio-3.png" class="card-img-top" alt="Portfolio Image 1" width="100%">
                 <div class="card-body">
-                  <h3 class="card-title">Ahuse</h3>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-                  <div class="card-button gap-2 d-flex justify-content-center">
-                    <a href="#" class="btn btn-primary d-block w-100">Visit</a>
-                    <a href="#" class="btn btn-outline-primary d-block w-100">Repositories</a>
+                  <h3 class="card-title fw-bold">Ahuse</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros..</p>
+                  <div class="d-flex gap-2">
+                    <a href="#" class="btn btn-primary w-100">Visit</a>
+                    <a href="https://github.com/alirfanyasin" target="_blank" class="btn btn-outline-primary w-100">Repositories</a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-3">
               <div class="card border-0 shadow">
-                <img src="assets/img/img-portfolio-2.png" class="card-img-top" alt="Ahuse image">
+                <img src="assets/img/img-portfolio-2.png" class="card-img-top" alt="Portfolio Image 1" width="100%">
                 <div class="card-body">
-                  <h3 class="card-title">App Dashboard</h3>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-                  <div class="card-button gap-2 d-flex justify-content-center">
-                    <a href="#" class="btn btn-primary d-block w-100">Visit</a>
-                    <a href="#" class="btn btn-outline-primary d-block w-100">Repositories</a>
+                  <h3 class="card-title fw-bold">App Dashboard</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros..</p>
+                  <div class="d-flex gap-2">
+                    <a href="#" class="btn btn-primary w-100">Visit</a>
+                    <a href="https://github.com/alirfanyasin" target="_blank" class="btn btn-outline-primary w-100">Repositories</a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-3">
               <div class="card border-0 shadow">
-                <img src="assets/img/img-portfolio-3.png" class="card-img-top" alt="Ahuse image">
+                <img src="assets/img/img-portfolio-1.png" class="card-img-top" alt="Portfolio Image 1" width="100%">
                 <div class="card-body">
-                  <h3 class="card-title">Easy Rent</h3>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-                  <div class="card-button gap-2 d-flex justify-content-center">
-                    <a href="#" class="btn btn-primary d-block w-100">Visit</a>
-                    <a href="#" class="btn btn-outline-primary d-block w-100">Repositories</a>
+                  <h3 class="card-title fw-bold">Easy Rent</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros..</p>
+                  <div class="d-flex gap-2">
+                    <a href="#" class="btn btn-primary w-100">Visit</a>
+                    <a href="https://github.com/alirfanyasin" target="_blank" class="btn btn-outline-primary w-100">Repositories</a>
                   </div>
                 </div>
               </div>
@@ -185,31 +190,30 @@
       <!-- Portfolio section end -->
 
 
-      <!-- Testimonial section start -->
-      <section id="testimonial-section">
+      <!-- Testimonials section start -->
+      <section id="testimonial-section" class="py-5">
         <div class="container">
           <header class="mb-5">
-            <h5>Client Feedback</h5>
+            <h5>Clients Feedback</h5>
             <h1 class="fw-bold">Customer Testimonials</h1>
           </header>
           <div class="row">
             <div class="col-lg-4 col-md-6 col-12 mb-3">
-              <div class="card bg-transparent border-2 p-3 rounded-3">
+              <div class="card border-2 bg-transparent p-4 rounded-3">
                 <div class="card-body">
-                  <div class="card-star mb-4">
+                  <div class="card-star">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                   </div>
-                  <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
-                  <div class="card-avatar d-flex align-items-center mt-5">
-                    <div class="avatar rounded-circle overflow-hidden">
-                      <img src="assets/img/avatar-1.jpg" alt="avatar img" width="100%">
-                    </div>
-                    <div class="description ms-4">
-                      <strong>Dianne Russell</strong>
+                  <p class="card-text my-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+
+                  <div class="d-flex gap-3">
+                    <img src="assets/img/avatar-1.jpg" alt="Avatar 1" class="rounded-circle" width="60px">
+                    <div class="avatar-label">
+                      <div class="fw-bold">Dianne Russell</div>
                       <div>Starbucks</div>
                     </div>
                   </div>
@@ -217,46 +221,44 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-3">
-              <div class="card bg-transparent border-2 p-3 rounded-3">
+              <div class="card border-2 bg-transparent p-4 rounded-3">
                 <div class="card-body">
-                  <div class="card-star mb-4">
+                  <div class="card-star">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
                   </div>
-                  <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
-                  <div class="card-avatar d-flex align-items-center mt-5">
-                    <div class="avatar rounded-circle overflow-hidden">
-                      <img src="assets/img/avatar-2.jpg" alt="avatar img" width="100%">
-                    </div>
-                    <div class="description ms-4">
-                      <strong>Dianne Russell</strong>
-                      <div>Starbucks</div>
+                  <p class="card-text my-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+
+                  <div class="d-flex gap-3">
+                    <img src="assets/img/avatar-2.jpg" alt="Avatar 1" class="rounded-circle" width="60px">
+                    <div class="avatar-label">
+                      <div class="fw-bold">Kristin Watson</div>
+                      <div>Louis Vuitton</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12 mb-3">
-              <div class="card bg-transparent border-2 p-3 rounded-3">
+              <div class="card border-2 bg-transparent p-4 rounded-3">
                 <div class="card-body">
-                  <div class="card-star mb-4">
+                  <div class="card-star">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                   </div>
-                  <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
-                  <div class="card-avatar d-flex align-items-center mt-5">
-                    <div class="avatar rounded-circle overflow-hidden">
-                      <img src="assets/img/avatar-3.jpg" alt="avatar img" width="100%">
-                    </div>
-                    <div class="description ms-4">
-                      <strong>Dianne Russell</strong>
-                      <div>Starbucks</div>
+                  <p class="card-text my-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+
+                  <div class="d-flex gap-3">
+                    <img src="assets/img/avatar-3.jpg" alt="Avatar 1" class="rounded-circle" width="60px">
+                    <div class="avatar-label">
+                      <div class="fw-bold">Kathryn Murphy</div>
+                      <div>McDonald's</div>
                     </div>
                   </div>
                 </div>
@@ -265,32 +267,36 @@
           </div>
         </div>
       </section>
-      <!-- Testimonial section end -->
+      <!-- Testimonials section end -->
+
 
 
       <!-- Contact section start -->
-      <section id="contact-section" class="mb-5">
+      <section id="contact-section">
         <div class="container">
+          
           <div class="row">
             <div class="col-md-8 mx-auto">
               <header class="mb-5 text-center">
                 <h5>Get In Touch</h5>
-                <h1 class="fw-bold">Contact Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h1 class="fw-bold">Contact me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
               </header>
 
-              <form>
+              <form action="">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="mb-3">
                       <label for="first-name" class="form-label">First Name</label>
-                      <input type="text" class="form-control" id="first-name" required oninvalid="this.setCustomValidity('Masukkan nama pertama anda')">
+                      <input type="text" class="form-control" id="first-name" required>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="mb-3">
-                      <label for="last-name" class="form-label">Last Name</label>
-                      <input type="text" class="form-control" id="last-name">
+                      <div class="mb-3">
+                        <label for="last-name" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="last-name" required>
+                      </div>
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -301,18 +307,21 @@
                   </div>
                   <div class="col-md-6">
                     <div class="mb-3">
-                      <label for="phone-number" class="form-label">Phone Number</label>
-                      <input type="tel" class="form-control" id="phone-number" pattern="[0-9]{10,14}" title="Mohon masukkan nomor telepon yang benar" required>
+                      <div class="mb-3">
+                        <label for="phone-number" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" id="phone-number" required>
+                      </div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="mb-3">
                       <label for="message" class="form-label">Message</label>
-                      <textarea class="form-control" id="message" rows="7" placeholder="Type your message..."></textarea>
+                      <textarea class="form-control" id="message" rows="7" placeholder="Type your message..." required></textarea>
+                    </div>
                   </div>
                 </div>
-                <div class="form-button text-center">
-                  <button type="submit" class="btn btn-primary px-5 py-2">Submit</button>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary px-4 py-2">Submit</button>
                 </div>
               </form>
             </div>
@@ -320,40 +329,43 @@
         </div>
       </section>
       <!-- Contact section end -->
+
     </main>
 
-
-    <footer class="py-5">
+    <!-- Footer section start -->
+    <footer class="py-5 mt-5">
       <div class="container">
-        <hr class="mb-4">
+        <hr class="border border-1 border-dark">
         <div class="row">
-          <div class="col mb-3">
-            <h6>Made with ❤️ by Airdokan</h6>
+          <div class="col">
+            <h6>Made with 💖 by Airdokan</h6>
           </div>
           <div class="col-md-4 d-flex justify-content-between">
             <a href="" class="text-decoration-none text-dark">Privacy Policy</a>
-            <a href="" class="text-decoration-none text-dark">Term of Services</a>
-            <a href="" class="text-decoration-none text-dark">Cookies Setting</a>
+            <a href="" class="text-decoration-none text-dark">Terms of Service</a>
+            <a href="" class="text-decoration-none text-dark">Cookies Settings</a>
           </div>
         </div>
       </div>
     </footer>
-
+    <!-- Footer section end -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
 
     <script>
-      var navClass = document.getElementsByTagName("nav")[0];
+      var navClass = document.querySelector('.navbar');
 
       window.onscroll = function() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
           navClass.classList.add('navbar-solid');
+          console.log('navbar active');
         }else {
           navClass.classList.remove('navbar-solid');
         }
-      };
+      }
+
     </script>
   </body>
 </html>
