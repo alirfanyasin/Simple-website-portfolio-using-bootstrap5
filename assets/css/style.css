@@ -9,13 +9,23 @@
   --color-third: #006B6A;
 }
 
-
-/* Custom style */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Roboto', sans-serif, monospace;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Custom style */
+
+.btn-outline-primary {
+  --bs-btn-border-color: var(--color-main);
+  --bs-btn-color: var(--color-main);
+}
+
+.btn-outline-primary:hover {
+  --bs-btn-hover-border-color: var(--color-main);
+  --bs-btn-hover-bg: var(--color-main);
 }
 
 .btn-primary {
@@ -23,62 +33,46 @@
   --bs-btn-border-color: var(--color-main);
 }
 
-.btn-outline-primary {
-  --bs-btn-color: var(--color-main);
-  --bs-btn-border-color: var(--color-main);
-}
-
 .btn-primary:hover {
   --bs-btn-hover-bg: var(--color-main-hover);
 }
 
-.btn-outline-primary:hover {
-  --bs-btn-hover-bg: var(--color-main);
-}
 .form-control {
-  border-color: var(--color-main);
+  border: 2px solid var(--color-main);
 }
+
 .form-control:focus {
- border-color: var(--color-main);
- box-shadow: 0 0 0 0.25rem rgb(94, 59, 238, .25);
+  border-color: var(--color-main);
+  box-shadow: rgba(53, 11, 221, 0.25);
 }
 
 .navbar-solid {
-  background-color: white;
-  box-shadow: 0 10px 20px rgba(70, 70, 70, 0.3);
+  background-color: var(--color-bg-main);
+  box-shadow: 0 10px 10px #6b6b6b4d;
   transition: .5s;
 }
 
-.navbar-nav .nav-link.active, 
-.navbar-nav .nav-link:hover{
-  color: var(--color-main);
-}
 
 
+/* Custom Component style */
 
-/* Component Style */
 
 #hero-section h1 span {
   color: var(--color-main);
 }
 
 #hero-section h1 {
-  font-size: 60px;
+  /* font-size: calc(2.5rem + 1vw); */
+  font-size: 55px;
 }
 
-
-#hero-section,
-#testimonial-section,
-footer {
+#hero-section {
   background-color: var(--color-bg-second);
 }
+
 
 #skill-section .card {
   background-color: var(--color-bg-second);
-}
-
-#skill-section .card-icon img {
-  width: 40px;
 }
 
 #skill-section .card-icon {
@@ -86,51 +80,53 @@ footer {
 }
 
 
-#about-section,
+#portfolio-section,
 #testimonial-section {
-  margin: 250px 0;
-}
-
-
-
-#testimonial-section .card-avatar .avatar {
-  width: 60px;
-  height: 60px;
+  margin: 200px 0;
 }
 
 #testimonial-section .card-star .fa-star{
   color: var(--color-third);
 }
 
-#testimonial-section .card {
+#testimonial-section .card{
   border-color: var(--color-third);
 }
 
-#testimonial-section {
-  padding: 100px 0;
+#testimonial-section, footer {
+  background-color: var(--color-bg-second);
 }
 
 
-@media only screen and (max-width: 760px) {
-  #hero-section .row .col-md-6:nth-child(1){
-    order: 2;
-    margin-top: 50px;
-    text-align: center;
-  }
 
-  #hero-section h1 {
-    font-size: 40px;
-  }
-
-  #hero-section {
-    padding-top: 100px;
-  }
-
-  footer h6 {
-    text-align: center;
-  }
-
+@media only screen and (max-width: 600px) {
   .navbar {
-    background-color: white;
+    background-color: var(--color-bg-main);
   }
+  #hero-section .container .row .col-lg-6:nth-child(2) {
+    margin-top: 250px;
+  }
+
+  #hero-section .container .row .col-lg-6:nth-child(1) h1 {
+    font-size: 40px;
+  
+  } 
+  #hero-section .container .row .col-lg-6:nth-child(1) {
+    order: 2;
+    text-align: center;
+    padding-bottom: 200px;
+    
+  }
+
+  
+
+  footer a, footer h6 {
+    text-align: center;
+  }
+
+  footer {
+    pdding-bottom: 30px;
+  }
+
+  
 }
